@@ -9,6 +9,11 @@ use SocialiteProviders\Manager\OAuth2\AbstractProvider;
 class Provider extends AbstractProvider implements ProviderInterface
 {
     /**
+     * Unique Provider Identifier.
+     */
+    const IDENTIFIER = 'FACEBOOK';
+
+    /**
      * The base Facebook Graph URL.
      *
      * @var string
