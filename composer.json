@@ -1,5 +1,5 @@
 {
-    "name": "AndrewNovikof/facebookserviceprovider",
+    "name": "andrewnovikof/facebookserviceprovider",
     "description": "Facebook OAuth2 Provider for Laravel Socialite",
     "license": "MIT",
     "authors": [{
