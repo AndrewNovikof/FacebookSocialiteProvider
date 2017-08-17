@@ -1,4 +1,4 @@
-# Odnoklassniki OAuth2 Provider for Laravel Socialite
+# Facebook OAuth2 Provider for Laravel Socialite
 
 ### 1. Installation
 
