@@ -27,7 +27,7 @@ class Provider extends AbstractProvider implements ProviderInterface
      *
      * @var array
      */
-    protected $fields = ['name', 'email', 'gender', 'verified', 'link'];
+    protected $fields = ['name', 'email', 'gender', 'verified', 'link', 'age_range'];
 
     /**
      * The scopes being requested.
@@ -96,10 +96,14 @@ class Provider extends AbstractProvider implements ProviderInterface
         $avatarUrl = $this->graphUrl . '/' . $this->version . '/' . $user['id'] . '/picture';
 
         return (new User)->setRaw($user)->map([
-            'id' => $user['id'], 'nickname' => null, 'name' => isset($user['name']) ? $user['name'] : null,
-            'email' => isset($user['email']) ? $user['email'] : null, 'avatar' => $avatarUrl . '?type=normal',
+            'id' => $user['id'],
+            'nickname' => isset($user['name']) ? $user['name'] : null,
+            'name' => isset($user['name']) ? $user['name'] : null,
+            'email' => isset($user['email']) ? $user['email'] : null,
+            'avatar' => $avatarUrl . '?type=normal',
             'avatar_original' => $avatarUrl . '?width=1920',
             'profileUrl' => isset($user['link']) ? $user['link'] : null,
+            'age_range' => isset($user['age_range']) ? $user['age_range'] : null,
         ]);
     }
 
