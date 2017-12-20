@@ -32,7 +32,7 @@ class Provider extends AbstractProvider implements ProviderInterface
      *
      * @var array
      */
-    protected $fields = ['name', 'email', 'gender', 'verified', 'link', 'age_range'];
+    protected $fields = ['name', 'email', 'gender', 'verified', 'link', 'age_range', 'about', 'about', 'education', 'work'];
 
     /**
      * The scopes being requested.
