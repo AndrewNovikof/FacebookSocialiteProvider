@@ -105,10 +105,13 @@ class Provider extends AbstractProvider implements ProviderInterface
             'nickname' => isset($user['name']) ? $user['name'] : null,
             'name' => isset($user['name']) ? $user['name'] : null,
             'email' => isset($user['email']) ? $user['email'] : null,
-            'avatar' => $avatarUrl . '?type=large',
+            'avatar' => $avatarUrl . '?width=1920',
             'avatar_original' => $avatarUrl . '?width=1920',
             'profileUrl' => isset($user['link']) ? $user['link'] : null,
             'age_range' => isset($user['age_range']) ? $user['age_range'] : null,
+            'about' => isset($user['about']) ? $user['about'] : null,
+            'education' => isset($user['education']) ? $user['education'] : null,
+            'work' => isset($user['work']) ? $user['work'] : null,
         ]);
     }
 
