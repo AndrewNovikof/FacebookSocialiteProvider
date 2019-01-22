@@ -1,5 +1,10 @@
 # Facebook OAuth2 Provider for Laravel Socialite
 
+[![Latest Stable Version](https://poser.pugx.org/andrewnovikof/facebookserviceprovider/v/stable)](https://packagist.org/packages/andrewnovikof/facebookserviceprovider)
+[![Total Downloads](https://poser.pugx.org/andrewnovikof/facebookserviceprovider/downloads)](https://packagist.org/packages/andrewnovikof/facebookserviceprovider)
+[![Latest Unstable Version](https://poser.pugx.org/andrewnovikof/facebookserviceprovider/v/unstable)](https://packagist.org/packages/andrewnovikof/facebookserviceprovider)
+[![License](https://poser.pugx.org/andrewnovikof/facebookserviceprovider/license)](https://packagist.org/packages/andrewnovikof/facebookserviceprovider)
+
 ### 1. Installation
 
 `composer require andrewnovikof/facebookserviceprovider`
